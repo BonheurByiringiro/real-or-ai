@@ -296,9 +296,8 @@ def validate_report(bundle: EvidenceBundle, report: Report) -> list[str]:
 # ---------------------------------------------------------------------------
 # 4. Runner — Meta Model API (Muse models), Responses API
 # ---------------------------------------------------------------------------
-# Decision (Bwayne, 2026-11-06): the original design doc named Anthropic
-# Claude because he drafted the idea there. The reasoning model for this
-# project is Muse — Meta's Muse family — via the Meta Model API:
+# Decision (Bwayne, 2026-11-06): the reasoning model for this project
+# is Muse — Meta's Muse family — via the Meta Model API:
 #   base URL  https://api.meta.ai/v1
 #   auth      MODEL_API_KEY (create one at dev.meta.ai; billing required)
 #   models    muse-spark-1.3 (default — the model family Muse runs on)

@@ -40,9 +40,8 @@ prompt guardrails enforced in code, evaluation harnesses.
       agent matches expected verdicts on most cases; failures categorized.
 
 ### Model decision (Bwayne, 2026-11-06)
-"Everything to be yours" — the reasoning model is Muse (Meta), not
-Anthropic Claude (the doc named Claude only because Bwayne drafted the
-idea in that tool). Access route, verified 2026-11-06 at dev.meta.ai:
+"Everything to be yours" — the reasoning model is Muse (Meta).
+Access route, verified 2026-11-06 at dev.meta.ai:
 Meta Model API, base URL https://api.meta.ai/v1, OpenAI-SDK compatible
 (Responses API + function tools), auth MODEL_API_KEY. Default model
 muse-spark-1.3 (REAL_OR_AI_MODEL); muse-wonder-1.0 is the step-up.

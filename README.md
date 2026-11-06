@@ -31,9 +31,8 @@ python eval_harness.py            # validates the 8 hand-built eval cases
 
 ## Live run (calls Muse, via the Meta Model API)
 
-The reasoning model is **Muse** — Meta's Muse family. (The original
-design doc named a different vendor's model because the idea was
-drafted there; the project has been Muse's since Phase 0.)
+The reasoning model is **Muse** — Meta's Muse family, accessed
+through the Meta Model API. It has been Muse's since Phase 0.
 
 1. Go to [dev.meta.ai](https://dev.meta.ai), sign in, add billing,
    and create an API key.
